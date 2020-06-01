@@ -6,13 +6,6 @@ from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 W =1000
 
-def value(x){
-    if(x<0)
-        return 0
-    else if(x>255)
-        return 255
-    return x
-}
 
 def addition(img, img1):
     img = cv2.imread(img)
